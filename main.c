@@ -130,7 +130,7 @@ int main(void)
 
     while (1)
     {
-        /* Obtain lux value from OPT3001 */
+        /* Obtain lux value from OPT3001      */
         lux = OPT3001_getLux();
 
         char string[20];
